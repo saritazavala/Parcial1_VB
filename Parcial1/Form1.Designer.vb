@@ -22,124 +22,86 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RB_LavExt = New System.Windows.Forms.RadioButton()
+        Me.RB_LavBasic = New System.Windows.Forms.RadioButton()
+        Me.RB_LavCompl = New System.Windows.Forms.RadioButton()
+        Me.RB_LavMotor = New System.Windows.Forms.RadioButton()
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
+        Me.RB_Pulido = New System.Windows.Forms.RadioButton()
+        Me.RB_Encerado = New System.Windows.Forms.RadioButton()
+        Me.RB_Exterior = New System.Windows.Forms.RadioButton()
+        Me.RB_TapBasic = New System.Windows.Forms.RadioButton()
+        Me.RB_TapFull = New System.Windows.Forms.RadioButton()
+        Me.RB_LavLlanta = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Btn_Calcular = New System.Windows.Forms.Button()
+        Me.Btn_Limpiar = New System.Windows.Forms.Button()
+        Me.Btn_Salir = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.ServDisp = New System.Windows.Forms.GroupBox()
+        Me.ServBasic = New System.Windows.Forms.GroupBox()
+        Me.ServEsp = New System.Windows.Forms.GroupBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
+        Me.GroupBox1.SuspendLayout()
+        Me.ServDisp.SuspendLayout()
+        Me.ServBasic.SuspendLayout()
+        Me.ServEsp.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Label4
+        'RB_LavExt
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(73, 26)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(172, 20)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "SERVICIOS DISPONIBLES"
+        Me.RB_LavExt.AutoSize = True
+        Me.RB_LavExt.Location = New System.Drawing.Point(16, 30)
+        Me.RB_LavExt.Name = "RB_LavExt"
+        Me.RB_LavExt.Size = New System.Drawing.Size(133, 24)
+        Me.RB_LavExt.TabIndex = 8
+        Me.RB_LavExt.TabStop = True
+        Me.RB_LavExt.Text = "Lavado Exterior"
+        Me.RB_LavExt.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'RB_LavBasic
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(22, 61)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(149, 24)
-        Me.RadioButton1.TabIndex = 4
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Delivery Car Wash"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RB_LavBasic.AutoSize = True
+        Me.RB_LavBasic.Location = New System.Drawing.Point(16, 60)
+        Me.RB_LavBasic.Name = "RB_LavBasic"
+        Me.RB_LavBasic.Size = New System.Drawing.Size(125, 24)
+        Me.RB_LavBasic.TabIndex = 9
+        Me.RB_LavBasic.TabStop = True
+        Me.RB_LavBasic.Text = "Lavado Basico"
+        Me.RB_LavBasic.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'RB_LavCompl
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(22, 91)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(141, 24)
-        Me.RadioButton2.TabIndex = 5
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Servicios Basicos"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RB_LavCompl.AutoSize = True
+        Me.RB_LavCompl.Location = New System.Drawing.Point(177, 30)
+        Me.RB_LavCompl.Name = "RB_LavCompl"
+        Me.RB_LavCompl.Size = New System.Drawing.Size(148, 24)
+        Me.RB_LavCompl.TabIndex = 10
+        Me.RB_LavCompl.TabStop = True
+        Me.RB_LavCompl.Text = "Lavado Completo"
+        Me.RB_LavCompl.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'RB_LavMotor
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(22, 121)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(160, 24)
-        Me.RadioButton3.TabIndex = 6
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Servicios Especiales"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(478, 26)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(142, 20)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "SERVICIOS BASICOS"
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(398, 49)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(133, 24)
-        Me.RadioButton4.TabIndex = 8
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Lavado Exterior"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'RadioButton5
-        '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(398, 79)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(125, 24)
-        Me.RadioButton5.TabIndex = 9
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Lavado Basico"
-        Me.RadioButton5.UseVisualStyleBackColor = True
-        '
-        'RadioButton6
-        '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(566, 49)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(148, 24)
-        Me.RadioButton6.TabIndex = 10
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Lavado Completo"
-        Me.RadioButton6.UseVisualStyleBackColor = True
-        '
-        'RadioButton7
-        '
-        Me.RadioButton7.AutoSize = True
-        Me.RadioButton7.Location = New System.Drawing.Point(566, 79)
-        Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(144, 24)
-        Me.RadioButton7.TabIndex = 11
-        Me.RadioButton7.TabStop = True
-        Me.RadioButton7.Text = "Lavado de Motor"
-        Me.RadioButton7.UseVisualStyleBackColor = True
+        Me.RB_LavMotor.AutoSize = True
+        Me.RB_LavMotor.Location = New System.Drawing.Point(177, 60)
+        Me.RB_LavMotor.Name = "RB_LavMotor"
+        Me.RB_LavMotor.Size = New System.Drawing.Size(144, 24)
+        Me.RB_LavMotor.TabIndex = 11
+        Me.RB_LavMotor.TabStop = True
+        Me.RB_LavMotor.Text = "Lavado de Motor"
+        Me.RB_LavMotor.UseVisualStyleBackColor = True
         '
         'RadioButton8
         '
         Me.RadioButton8.AutoSize = True
-        Me.RadioButton8.Location = New System.Drawing.Point(478, 112)
+        Me.RadioButton8.Location = New System.Drawing.Point(96, 93)
         Me.RadioButton8.Name = "RadioButton8"
         Me.RadioButton8.Size = New System.Drawing.Size(156, 24)
         Me.RadioButton8.TabIndex = 12
@@ -147,124 +109,276 @@ Partial Class Form1
         Me.RadioButton8.Text = "Limpieza de Chasis"
         Me.RadioButton8.UseVisualStyleBackColor = True
         '
-        'Label2
+        'RB_Pulido
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(73, 179)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(139, 20)
-        Me.Label2.TabIndex = 13
-        Me.Label2.Text = "Servicios Especiales"
+        Me.RB_Pulido.AutoSize = True
+        Me.RB_Pulido.Location = New System.Drawing.Point(4, 28)
+        Me.RB_Pulido.Name = "RB_Pulido"
+        Me.RB_Pulido.Size = New System.Drawing.Size(72, 24)
+        Me.RB_Pulido.TabIndex = 14
+        Me.RB_Pulido.TabStop = True
+        Me.RB_Pulido.Text = "Pulido"
+        Me.RB_Pulido.UseVisualStyleBackColor = True
         '
-        'RadioButton9
+        'RB_Encerado
         '
-        Me.RadioButton9.AutoSize = True
-        Me.RadioButton9.Location = New System.Drawing.Point(22, 206)
-        Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(72, 24)
-        Me.RadioButton9.TabIndex = 14
-        Me.RadioButton9.TabStop = True
-        Me.RadioButton9.Text = "Pulido"
-        Me.RadioButton9.UseVisualStyleBackColor = True
+        Me.RB_Encerado.AutoSize = True
+        Me.RB_Encerado.Location = New System.Drawing.Point(4, 58)
+        Me.RB_Encerado.Name = "RB_Encerado"
+        Me.RB_Encerado.Size = New System.Drawing.Size(92, 24)
+        Me.RB_Encerado.TabIndex = 15
+        Me.RB_Encerado.TabStop = True
+        Me.RB_Encerado.Text = "Encerado"
+        Me.RB_Encerado.UseVisualStyleBackColor = True
         '
-        'RadioButton10
+        'RB_Exterior
         '
-        Me.RadioButton10.AutoSize = True
-        Me.RadioButton10.Location = New System.Drawing.Point(22, 236)
-        Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(92, 24)
-        Me.RadioButton10.TabIndex = 15
-        Me.RadioButton10.TabStop = True
-        Me.RadioButton10.Text = "Encerado"
-        Me.RadioButton10.UseVisualStyleBackColor = True
+        Me.RB_Exterior.AutoSize = True
+        Me.RB_Exterior.Location = New System.Drawing.Point(4, 88)
+        Me.RB_Exterior.Name = "RB_Exterior"
+        Me.RB_Exterior.Size = New System.Drawing.Size(81, 24)
+        Me.RB_Exterior.TabIndex = 16
+        Me.RB_Exterior.TabStop = True
+        Me.RB_Exterior.Text = "Exterior"
+        Me.RB_Exterior.UseVisualStyleBackColor = True
         '
-        'RadioButton11
+        'RB_TapBasic
         '
-        Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(22, 266)
-        Me.RadioButton11.Name = "RadioButton11"
-        Me.RadioButton11.Size = New System.Drawing.Size(81, 24)
-        Me.RadioButton11.TabIndex = 16
-        Me.RadioButton11.TabStop = True
-        Me.RadioButton11.Text = "Exterior"
-        Me.RadioButton11.UseVisualStyleBackColor = True
+        Me.RB_TapBasic.AutoSize = True
+        Me.RB_TapBasic.Location = New System.Drawing.Point(110, 88)
+        Me.RB_TapBasic.Name = "RB_TapBasic"
+        Me.RB_TapBasic.Size = New System.Drawing.Size(137, 24)
+        Me.RB_TapBasic.TabIndex = 17
+        Me.RB_TapBasic.TabStop = True
+        Me.RB_TapBasic.Text = "Tapizado Basico"
+        Me.RB_TapBasic.UseVisualStyleBackColor = True
         '
-        'RadioButton12
+        'RB_TapFull
         '
-        Me.RadioButton12.AutoSize = True
-        Me.RadioButton12.Location = New System.Drawing.Point(22, 296)
-        Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(137, 24)
-        Me.RadioButton12.TabIndex = 17
-        Me.RadioButton12.TabStop = True
-        Me.RadioButton12.Text = "Tapizado Basico"
-        Me.RadioButton12.UseVisualStyleBackColor = True
+        Me.RB_TapFull.AutoSize = True
+        Me.RB_TapFull.Location = New System.Drawing.Point(110, 28)
+        Me.RB_TapFull.Name = "RB_TapFull"
+        Me.RB_TapFull.Size = New System.Drawing.Size(117, 24)
+        Me.RB_TapFull.TabIndex = 18
+        Me.RB_TapFull.TabStop = True
+        Me.RB_TapFull.Text = "Tapizado Full"
+        Me.RB_TapFull.UseVisualStyleBackColor = True
         '
-        'RadioButton13
+        'RB_LavLlanta
         '
-        Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Location = New System.Drawing.Point(128, 206)
-        Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(117, 24)
-        Me.RadioButton13.TabIndex = 18
-        Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "Tapizado Full"
-        Me.RadioButton13.UseVisualStyleBackColor = True
+        Me.RB_LavLlanta.AutoSize = True
+        Me.RB_LavLlanta.Location = New System.Drawing.Point(110, 58)
+        Me.RB_LavLlanta.Name = "RB_LavLlanta"
+        Me.RB_LavLlanta.Size = New System.Drawing.Size(128, 24)
+        Me.RB_LavLlanta.TabIndex = 19
+        Me.RB_LavLlanta.TabStop = True
+        Me.RB_LavLlanta.Text = "Lavado Llantas"
+        Me.RB_LavLlanta.UseVisualStyleBackColor = True
         '
-        'RadioButton14
+        'Label3
         '
-        Me.RadioButton14.AutoSize = True
-        Me.RadioButton14.Location = New System.Drawing.Point(128, 236)
-        Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(128, 24)
-        Me.RadioButton14.TabIndex = 19
-        Me.RadioButton14.TabStop = True
-        Me.RadioButton14.Text = "Lavado Llantas"
-        Me.RadioButton14.UseVisualStyleBackColor = True
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(455, 178)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(137, 20)
+        Me.Label3.TabIndex = 20
+        Me.Label3.Text = "DATOS DE CLIENTE"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(359, 209)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(64, 20)
+        Me.Label5.TabIndex = 21
+        Me.Label5.Text = "Nombre"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(359, 252)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(32, 20)
+        Me.Label6.TabIndex = 22
+        Me.Label6.Text = "NIT"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(429, 209)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(256, 27)
+        Me.TextBox1.TabIndex = 23
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(428, 249)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(256, 27)
+        Me.TextBox2.TabIndex = 24
+        '
+        'Btn_Calcular
+        '
+        Me.Btn_Calcular.Location = New System.Drawing.Point(20, 53)
+        Me.Btn_Calcular.Name = "Btn_Calcular"
+        Me.Btn_Calcular.Size = New System.Drawing.Size(128, 28)
+        Me.Btn_Calcular.TabIndex = 26
+        Me.Btn_Calcular.Text = "Calcular"
+        Me.Btn_Calcular.UseVisualStyleBackColor = True
+        '
+        'Btn_Limpiar
+        '
+        Me.Btn_Limpiar.Location = New System.Drawing.Point(171, 53)
+        Me.Btn_Limpiar.Name = "Btn_Limpiar"
+        Me.Btn_Limpiar.Size = New System.Drawing.Size(128, 28)
+        Me.Btn_Limpiar.TabIndex = 27
+        Me.Btn_Limpiar.Text = "Limpiar"
+        Me.Btn_Limpiar.UseVisualStyleBackColor = True
+        '
+        'Btn_Salir
+        '
+        Me.Btn_Salir.Location = New System.Drawing.Point(323, 51)
+        Me.Btn_Salir.Name = "Btn_Salir"
+        Me.Btn_Salir.Size = New System.Drawing.Size(128, 30)
+        Me.Btn_Salir.TabIndex = 28
+        Me.Btn_Salir.Text = "Salir"
+        Me.Btn_Salir.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.Btn_Salir)
+        Me.GroupBox1.Controls.Add(Me.Btn_Limpiar)
+        Me.GroupBox1.Controls.Add(Me.Btn_Calcular)
+        Me.GroupBox1.Location = New System.Drawing.Point(113, 359)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(470, 101)
+        Me.GroupBox1.TabIndex = 29
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "ACCIONES"
+        '
+        'ServDisp
+        '
+        Me.ServDisp.Controls.Add(Me.CheckBox3)
+        Me.ServDisp.Controls.Add(Me.CheckBox2)
+        Me.ServDisp.Controls.Add(Me.CheckBox1)
+        Me.ServDisp.Location = New System.Drawing.Point(33, 20)
+        Me.ServDisp.Name = "ServDisp"
+        Me.ServDisp.Size = New System.Drawing.Size(263, 144)
+        Me.ServDisp.TabIndex = 30
+        Me.ServDisp.TabStop = False
+        Me.ServDisp.Text = "SERVICIOS DISPONIBLES"
+        '
+        'ServBasic
+        '
+        Me.ServBasic.Controls.Add(Me.RadioButton8)
+        Me.ServBasic.Controls.Add(Me.RB_LavMotor)
+        Me.ServBasic.Controls.Add(Me.RB_LavBasic)
+        Me.ServBasic.Controls.Add(Me.RB_LavExt)
+        Me.ServBasic.Controls.Add(Me.RB_LavCompl)
+        Me.ServBasic.Enabled = False
+        Me.ServBasic.Location = New System.Drawing.Point(359, 20)
+        Me.ServBasic.Name = "ServBasic"
+        Me.ServBasic.Size = New System.Drawing.Size(331, 138)
+        Me.ServBasic.TabIndex = 31
+        Me.ServBasic.TabStop = False
+        Me.ServBasic.Text = "SERVICIOS BASICOS"
+        '
+        'ServEsp
+        '
+        Me.ServEsp.Controls.Add(Me.RB_LavLlanta)
+        Me.ServEsp.Controls.Add(Me.RB_TapFull)
+        Me.ServEsp.Controls.Add(Me.RB_TapBasic)
+        Me.ServEsp.Controls.Add(Me.RB_Exterior)
+        Me.ServEsp.Controls.Add(Me.RB_Encerado)
+        Me.ServEsp.Controls.Add(Me.RB_Pulido)
+        Me.ServEsp.Enabled = False
+        Me.ServEsp.Location = New System.Drawing.Point(18, 178)
+        Me.ServEsp.Name = "ServEsp"
+        Me.ServEsp.Size = New System.Drawing.Size(308, 126)
+        Me.ServEsp.TabIndex = 32
+        Me.ServEsp.TabStop = False
+        Me.ServEsp.Text = "SERVICIOS ESPECIALES"
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Location = New System.Drawing.Point(6, 36)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(199, 24)
+        Me.CheckBox1.TabIndex = 7
+        Me.CheckBox1.Text = "Delivery Car Wash (Q100)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'CheckBox2
+        '
+        Me.CheckBox2.AutoSize = True
+        Me.CheckBox2.Location = New System.Drawing.Point(6, 66)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(142, 24)
+        Me.CheckBox2.TabIndex = 8
+        Me.CheckBox2.Text = "Servicios Basicos"
+        Me.CheckBox2.UseVisualStyleBackColor = True
+        '
+        'CheckBox3
+        '
+        Me.CheckBox3.AutoSize = True
+        Me.CheckBox3.Location = New System.Drawing.Point(6, 96)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(161, 24)
+        Me.CheckBox3.TabIndex = 9
+        Me.CheckBox3.Text = "Servicios Especiales"
+        Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.RadioButton14)
-        Me.Controls.Add(Me.RadioButton13)
-        Me.Controls.Add(Me.RadioButton12)
-        Me.Controls.Add(Me.RadioButton11)
-        Me.Controls.Add(Me.RadioButton10)
-        Me.Controls.Add(Me.RadioButton9)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.RadioButton8)
-        Me.Controls.Add(Me.RadioButton7)
-        Me.Controls.Add(Me.RadioButton6)
-        Me.Controls.Add(Me.RadioButton5)
-        Me.Controls.Add(Me.RadioButton4)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.Label4)
+        Me.ClientSize = New System.Drawing.Size(726, 526)
+        Me.Controls.Add(Me.ServEsp)
+        Me.Controls.Add(Me.ServBasic)
+        Me.Controls.Add(Me.ServDisp)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label3)
         Me.Name = "Form1"
-        Me.Text = "Encerado"
+        Me.Text = "ACCIONES"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.ServDisp.ResumeLayout(False)
+        Me.ServDisp.PerformLayout()
+        Me.ServBasic.ResumeLayout(False)
+        Me.ServBasic.PerformLayout()
+        Me.ServEsp.ResumeLayout(False)
+        Me.ServEsp.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label4 As Label
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents Label1 As Label
-    Friend WithEvents RadioButton4 As RadioButton
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
-    Friend WithEvents RadioButton7 As RadioButton
+    Friend WithEvents RB_LavExt As RadioButton
+    Friend WithEvents RB_LavBasic As RadioButton
+    Friend WithEvents RB_LavCompl As RadioButton
+    Friend WithEvents RB_LavMotor As RadioButton
     Friend WithEvents RadioButton8 As RadioButton
-    Friend WithEvents Label2 As Label
-    Friend WithEvents RadioButton9 As RadioButton
-    Friend WithEvents RadioButton10 As RadioButton
-    Friend WithEvents RadioButton11 As RadioButton
-    Friend WithEvents RadioButton12 As RadioButton
-    Friend WithEvents RadioButton13 As RadioButton
-    Friend WithEvents RadioButton14 As RadioButton
+    Friend WithEvents RB_Pulido As RadioButton
+    Friend WithEvents RB_Encerado As RadioButton
+    Friend WithEvents RB_Exterior As RadioButton
+    Friend WithEvents RB_TapBasic As RadioButton
+    Friend WithEvents RB_TapFull As RadioButton
+    Friend WithEvents RB_LavLlanta As RadioButton
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Btn_Calcular As Button
+    Friend WithEvents Btn_Limpiar As Button
+    Friend WithEvents Btn_Salir As Button
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents ServDisp As GroupBox
+    Friend WithEvents ServBasic As GroupBox
+    Friend WithEvents ServEsp As GroupBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
