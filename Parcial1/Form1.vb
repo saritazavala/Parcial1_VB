@@ -160,4 +160,38 @@ Public Class Form1
         Me.Hide()
         Form2.Show()
     End Sub
+
+    Private Sub Btn_Limpiar_Click(sender As Object, e As EventArgs) Handles Btn_Limpiar.Click
+        'Limpieza de CheckBox
+        ChBox_DCW.Checked = False
+        ChBox_ServBasc.Checked = False
+        ChBox_ServEsp.Checked = False
+
+        'Limpieza de RadioButtons
+
+        ''' Servicios Especiales
+        RB_Pulido.Checked = False
+        RB_Encerado.Checked = False
+        RB_Exterior.Checked = False
+        RB_TapBasic.Checked = False
+        RB_TapFull.Checked = False
+        RB_LavLlanta.Checked = False
+
+        ''' Servicios Basicos
+        RB_LavExt.Checked = False
+        RB_LavBasic.Checked = False
+        RB_LavCompl.Checked = False
+        RB_LavMotor.Checked = False
+        RD_LimpChz.Checked = False
+
+        ' CONTADOR A CERO
+        contador = 0
+
+    End Sub
+
+    Private Sub Btn_Salir_Click(sender As Object, e As EventArgs) Handles Btn_Salir.Click
+        Me.Close()
+
+
+    End Sub
 End Class
