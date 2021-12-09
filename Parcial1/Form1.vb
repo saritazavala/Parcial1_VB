@@ -190,7 +190,10 @@ Public Class Form1
     End Sub
 
     Private Sub Btn_Salir_Click(sender As Object, e As EventArgs) Handles Btn_Salir.Click
-        Me.Close()
+        If MsgBox("¿DESEA SALIR?", vbQuestion + vbYesNo, "salir") = vbYes Then
+            'Me.Close()
+            End
+        End If
 
 
     End Sub
