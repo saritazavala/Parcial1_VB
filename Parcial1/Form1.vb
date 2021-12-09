@@ -5,7 +5,7 @@
 
 Public Class Form1
     'Dim nombre_variable as tipo_variable.
-    Dim contador As Double
+    Public contador As Double
 
     Private Sub ChBox_ServBasc_CheckedChanged(sender As Object, e As EventArgs) Handles ChBox_ServBasc.CheckedChanged
         If (ChBox_ServBasc.Checked
@@ -81,6 +81,7 @@ Public Class Form1
                 contador = contador - 90
             End If
             Debug.Print(contador)
+
         End If
     End Sub
 
@@ -147,5 +148,16 @@ Public Class Form1
             contador = contador - 95.5
         End If
         Debug.Print(contador)
+    End Sub
+
+    Private Sub Btn_Calcular_Click(sender As Object, e As EventArgs) Handles Btn_Calcular.Click
+        If (TextBox1.Text = "" Or TextBox2.Text = "") Then
+            MsgBox("No se han completado los datos del cliente")
+            TextBox1.Focus()
+            Exit Sub
+        End If
+
+        Me.Hide()
+        Form2.Show()
     End Sub
 End Class
