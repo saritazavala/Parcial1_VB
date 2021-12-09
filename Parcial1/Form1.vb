@@ -1,6 +1,6 @@
 ﻿'Universidad de San Carlos de Guatemala
 'Escuela de Vacaciones Diciembre 2021
-'TAREA PARCIAL 1
+'TAREA PARCIAL 1 - Programación de Computadoras 2
 'Miguel Bedoya
 
 Public Class Form1
@@ -33,7 +33,7 @@ Public Class Form1
         Else
             contador = contador - 100
         End If
-        Debug.Print(contador)
+        'Debug.Print(contador)
     End Sub
 
     Private Sub RB_LavExt_CheckedChanged(sender As Object, e As EventArgs) Handles RB_LavExt.CheckedChanged
@@ -43,7 +43,7 @@ Public Class Form1
         Else
             contador = contador - 110.5
         End If
-        Debug.Print(contador)
+        'Debug.Print(contador)
     End Sub
 
     Private Sub RB_LavCompl_CheckedChanged(sender As Object, e As EventArgs) Handles RB_LavCompl.CheckedChanged
@@ -52,7 +52,7 @@ Public Class Form1
         Else
             contador = contador - 185.5
         End If
-        Debug.Print(contador)
+        'Debug.Print(contador)
     End Sub
 
     Private Sub RB_LavBasic_CheckedChanged(sender As Object, e As EventArgs) Handles RB_LavBasic.CheckedChanged
@@ -61,7 +61,7 @@ Public Class Form1
         Else
             contador = contador - 125.5
         End If
-        Debug.Print(contador)
+        'Debug.Print(contador)
     End Sub
 
     Private Sub RB_LavMotor_CheckedChanged(sender As Object, e As EventArgs) Handles RB_LavMotor.CheckedChanged
@@ -70,7 +70,7 @@ Public Class Form1
         Else
             contador = contador - 165.5
         End If
-        Debug.Print(contador)
+        ' Debug.Print(contador)
     End Sub
 
     Private Sub RB_Pulido_CheckedChanged(sender As Object, e As EventArgs) Handles RB_Pulido.CheckedChanged
@@ -80,7 +80,7 @@ Public Class Form1
             Else
                 contador = contador - 90
             End If
-            Debug.Print(contador)
+            ' Debug.Print(contador)
 
         End If
     End Sub
@@ -92,7 +92,7 @@ Public Class Form1
             Else
                 contador = contador - 90
             End If
-            Debug.Print(contador)
+            ' Debug.Print(contador)
         End If
     End Sub
 
@@ -103,7 +103,7 @@ Public Class Form1
             Else
                 contador = contador - 90
             End If
-            Debug.Print(contador)
+            'Debug.Print(contador)
         End If
     End Sub
 
@@ -114,7 +114,7 @@ Public Class Form1
             Else
                 contador = contador - 105
             End If
-            Debug.Print(contador)
+            ' Debug.Print(contador)
         End If
 
     End Sub
@@ -126,7 +126,7 @@ Public Class Form1
             Else
                 contador = contador - 135
             End If
-            Debug.Print(contador)
+            ' Debug.Print(contador)
         End If
     End Sub
 
@@ -137,7 +137,7 @@ Public Class Form1
             Else
                 contador = contador - 85
             End If
-            Debug.Print(contador)
+            ' Debug.Print(contador)
         End If
     End Sub
 
@@ -147,7 +147,7 @@ Public Class Form1
         Else
             contador = contador - 95.5
         End If
-        Debug.Print(contador)
+        'Debug.Print(contador)
     End Sub
 
     Private Sub Btn_Calcular_Click(sender As Object, e As EventArgs) Handles Btn_Calcular.Click
